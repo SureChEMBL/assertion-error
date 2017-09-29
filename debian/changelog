@@ -1,0 +1,5 @@
+node-assertion-error (1.0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #840487)
+
+ -- Syam G Krishnan <sgk@riseup.net>  Wed, 12 Oct 2016 09:24:21 +0530

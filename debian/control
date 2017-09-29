@@ -1,0 +1,24 @@
+Source: node-assertion-error
+Section: web
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Syam G Krishnan <sgk@riseup.net>
+Build-Depends:
+ debhelper (>= 9)
+ , dh-buildinfo
+ , nodejs
+Standards-Version: 3.9.8
+Homepage: https://github.com/chaijs/assertion-error#readme
+Vcs-Git: https://anonscm.debian.org/git/pkg-javascript/node-assertion-error.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-javascript/node-assertion-error.git
+
+Package: node-assertion-error
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+Description: Error constructor fro validation frameworks
+ Error constructor for test and validation frameworks
+ that implements standardized AssertionError specification.
+ .
+ Node.js is an event-based server-side JavaScript engine.
